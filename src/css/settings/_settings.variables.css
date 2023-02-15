@@ -1,0 +1,219 @@
+/* ==========================================================================
+   #VARIABLES
+   ========================================================================== */
+
+
+
+
+
+/**
+* This file sets up the most important setup variables. They
+* underpin a lot of how the framework functions and should be modified and
+* preconfigured with caution.
+*/
+
+
+
+
+
+
+:root {
+
+
+
+
+
+/*  Typeface
+========================================================================== */
+
+
+
+
+
+--typeface-primary: 'Late', sans-serif;
+
+
+
+
+
+/*  Base typographical styles and baseline grid.
+========================================================================== */
+
+
+
+
+
+/**
+* MQ Breakpoints
+*
+* xs..........30em - 480px
+* sm..........45em - 720px
+* md..........64em - 1024px
+* lg..........75em - 1200px
+*
+*/
+
+
+
+
+
+--global-font-size        :    100%;
+--global-font-size-xs     :    100%;
+--global-font-size-sm     :    100%;
+--global-font-size-lg     :    100%;
+--global-font-size-xl     :    100%;
+
+--global-line-height   :    1.5;
+
+
+
+
+
+/**
+* Simple default styles for headings 1 through 6.
+*/
+
+
+
+
+
+--font-size-h1:  2.25rem ;
+--font-size-h2:  1.75rem ;
+--font-size-h3:  1.5rem  ;
+--font-size-h4:  1.25rem ;
+--font-size-h5:  1.125rem;
+--font-size-h6:  1rem    ;
+
+
+
+
+
+/* Global spacing units
+========================================================================== */
+
+
+
+
+
+/*  
+* There are two rules to creating Vertical Rhythm:
+*
+* Set the spaces between each element to a multiple of the baseline
+* Set the line-height of each text element to a multiple of the baseline
+*
+* It is not recommended that you modify these following variables.
+* (it can break your vertical rhythm), but if you need to, you can.
+*/
+
+--global-spacing-unit:      calc(var(--global-line-height) * 1rem);
+--global-spacing-unit-xs:   calc(var(--global-spacing-unit) / 4);
+--global-spacing-unit-sm:   calc(var(--global-spacing-unit) / 2);
+--global-spacing-unit-lg:   calc(var(--global-spacing-unit) * 2);
+--global-spacing-unit-xl:   calc(var(--global-spacing-unit) * 4);
+
+
+
+
+
+/* Standarise some UI treatments
+   ========================================================================== */
+
+
+
+
+
+--global-radius:      3px;
+--global-transition:  all 300ms ease-in-out;
+
+
+
+
+
+--global-box-shadow-xs:   0 2px 2px 0 rgba(0,0,0,0.14);
+--global-box-shadow-sm:   0 4px 5px 0 rgba(0,0,0,0.14);
+--global-box-shadow:      0 8px 17px 2px rgba(0,0,0,0.14);
+--global-box-shadow-lg:   0 16px 24px 2px rgba(0,0,0,0.14);
+--global-box-shadow-xl:   0 24px 38px 3px rgba(0,0,0,0.14);
+
+
+
+
+
+
+/* Reassign literal variables to meaningful ones.
+   ========================================================================== */
+
+
+
+
+
+--white:                 #fff;
+--gray-100:              #f8f9fa;
+--gray-200:              #e9ecef;
+--gray-300:              #dee2e6;
+--gray-400:              #ced4da;
+--gray-500:              #adb5bd;
+--gray-600:              #6c757d;
+--gray-700:              #495057;
+--gray-800:              #343a40;
+--gray-900:              #212529;
+--black:                 #000;
+
+
+/* THEME Pallet */
+--blue:                  #007bff;
+--indigo:                #6610f2;
+--purple:                #6f42c1;
+--pink:                  #e83e8c;
+--red:                   #dc3545;
+--orange:                #fd7e14;
+--yellow:                #ffc107;
+--green:                 #28a745;
+--teal:                  #20c997;
+--cyan:                  #17a2b8;
+
+             
+
+
+
+
+
+
+
+
+/* Reassign literal variables to meaningful ones.
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+--color-primary:                     var(--blue);
+--color-primary-highlight:           /* placeholder */;
+--color-primary-shadow:              /* placeholder */;
+
+--color-secondary:                   var(--yellow);
+--color-secondary-highlight:         /* placeholder */;
+--color-secondary-shadow:            /* placeholder */;
+
+--color-tertiary:                    var(--indigo);
+--color-tertiary-highlight:          /* placeholder */;
+--color-tertiary-shadow:             /* placeholder */;
+
+--color-success:                     var(--green);
+--color-success-highlight:           /* placeholder */;
+--color-success-shadow:              /* placeholder */;
+
+--color-error:                      var(--red);
+--color-error-highlight:             /* placeholder */;
+--color-error-shadow:                /* placeholder */;
+
+
+
+
+}
