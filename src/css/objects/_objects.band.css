@@ -1,0 +1,431 @@
+/* ==========================================================================
+   #BAND
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.o-band {
+  display: block;   
+  padding-top: var(--global-spacing-unit);
+  padding-bottom: var(--global-spacing-unit);
+}
+
+
+
+
+
+
+
+
+
+
+/* Size variants
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.o-band--fl {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.o-band--xs {
+  padding-top: var(--global-spacing-unit-xs);
+  padding-bottom: var(--global-spacing-unit-xs);
+}
+  
+.o-band--sm {
+  padding-top: var(--global-spacing-unit-sm);
+  padding-bottom: var(--global-spacing-unit-sm);
+}
+  
+.o-band--lg {
+  padding-top: var(--global-spacing-unit-lg);
+  padding-bottom: var(--global-spacing-unit-lg);
+}
+
+.o-band--xl {
+  padding-top: var(--global-spacing-unit-xl);
+  padding-bottom: var(--global-spacing-unit-xl);
+}
+
+
+
+
+
+
+
+
+
+/* xs  */
+@media (min-width: 30em) {
+
+
+
+
+	.o-band\@xs {
+		display: block;   
+		padding-top: var(--global-spacing-unit);
+		padding-bottom: var(--global-spacing-unit);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Size variants
+		 ========================================================================== */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.o-band--fl\@xs  {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	
+	.o-band--xs\@xs {
+		padding-top: var(--global-spacing-unit-xs);
+		padding-bottom: var(--global-spacing-unit-xs);
+	}
+		
+	.o-band--sm\@xs {
+		padding-top: var(--global-spacing-unit-sm);
+		padding-bottom: var(--global-spacing-unit-sm);
+	}
+		
+	.o-band--lg\@xs {
+		padding-top: var(--global-spacing-unit-lg);
+		padding-bottom: var(--global-spacing-unit-lg);
+	}
+	
+	.o-band--xl\@xs {
+		padding-top: var(--global-spacing-unit-xl);
+		padding-bottom: var(--global-spacing-unit-xl);
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* sm  */
+@media (min-width: 45em) {
+
+
+
+
+	.o-band\@sm {
+		display: block;   
+		padding-top: var(--global-spacing-unit);
+		padding-bottom: var(--global-spacing-unit);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Size variants
+		 ========================================================================== */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.o-band--fl\@sm {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	
+	.o-band--xs\@sm {
+		padding-top: var(--global-spacing-unit-xs);
+		padding-bottom: var(--global-spacing-unit-xs);
+	}
+		
+	.o-band--sm\@sm {
+		padding-top: var(--global-spacing-unit-sm);
+		padding-bottom: var(--global-spacing-unit-sm);
+	}
+		
+	.o-band--lg\@sm {
+		padding-top: var(--global-spacing-unit-lg);
+		padding-bottom: var(--global-spacing-unit-lg);
+	}
+	
+	.o-band--xl\@sm {
+		padding-top: var(--global-spacing-unit-xl);
+		padding-bottom: var(--global-spacing-unit-xl);
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* lg  */
+@media (min-width: 64em) {
+
+
+
+
+	.o-band\@lg {
+		display: block;   
+		padding-top: var(--global-spacing-unit);
+		padding-bottom: var(--global-spacing-unit);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Size variants
+		 ========================================================================== */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.o-band--fl\@lg {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	
+	.o-band--xs\@lg {
+		padding-top: var(--global-spacing-unit-xs);
+		padding-bottom: var(--global-spacing-unit-xs);
+	}
+		
+	.o-band--sm\@lg {
+		padding-top: var(--global-spacing-unit-sm);
+		padding-bottom: var(--global-spacing-unit-sm);
+	}
+		
+	.o-band--lg\@lg {
+		padding-top: var(--global-spacing-unit-lg);
+		padding-bottom: var(--global-spacing-unit-lg);
+	}
+	
+	.o-band--xl\@lg {
+		padding-top: var(--global-spacing-unit-xl);
+		padding-bottom: var(--global-spacing-unit-xl);
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* xl  */
+@media (min-width: 75em) {
+
+
+
+
+	.o-band\@xl {
+		display: block;   
+		padding-top: var(--global-spacing-unit);
+		padding-bottom: var(--global-spacing-unit);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Size variants
+		 ========================================================================== */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.o-band--fl\@xl {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	
+	.o-band--xs\@xl {
+		padding-top: var(--global-spacing-unit-xs);
+		padding-bottom: var(--global-spacing-unit-xs);
+	}
+		
+	.o-band--sm\@xl {
+		padding-top: var(--global-spacing-unit-sm);
+		padding-bottom: var(--global-spacing-unit-sm);
+	}
+		
+	.o-band--lg\@xl {
+		padding-top: var(--global-spacing-unit-lg);
+		padding-bottom: var(--global-spacing-unit-lg);
+	}
+	
+	.o-band--xl\@xl {
+		padding-top: var(--global-spacing-unit-xl);
+		padding-bottom: var(--global-spacing-unit-xl);
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* UI variants
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.o-band--light {
+  color: var(--black);
+}
+
+.o-band--dark {
+  color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

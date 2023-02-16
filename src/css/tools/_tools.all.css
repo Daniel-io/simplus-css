@@ -1,0 +1,42 @@
+/* ==========================================================================
+   #MQ
+   ========================================================================== */
+
+
+
+
+   
+/**
+* Pre-configuration for Sass MQ.
+* $breakpoint argument options 
+*
+* xs..........30em - 480px
+* sm..........45em - 720px
+* lg..........64em - 1024px
+* xl..........75em - 1200px
+*
+*/
+
+
+
+
+
+/* 
+Prefixes  
+xs:   \@xs,
+sm:   \@sm,
+md:   \@lg,
+lg:   \@xl
+*/
+
+
+
+
+
+/* 
+@media (min-width: 30em) {}
+@media (min-width: 45em) {}
+@media (min-width: 64em) {}
+@media (min-width: 75em) {} 
+*/
+
