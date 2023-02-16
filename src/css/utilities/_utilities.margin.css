@@ -1,0 +1,58 @@
+/* ==========================================================================
+   #MARGIN
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.u-mb {
+  margin-bottom: var(--global-spacing-unit) !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* Size variants
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.u-mb--fl {
+  margin-bottom: 0 !important;
+}
+
+.u-mb--xs {
+  margin-bottom: var(--global-spacing-unit-xs) !important;
+}
+
+.u-mb--sm {
+  margin-bottom: var(--global-spacing-unit-sm) !important;
+}
+
+.u-mb--lg {
+  margin-bottom: var(--global-spacing-unit-lg) !important;
+}
+
+.u-mb--xl {
+  margin-bottom: var(--global-spacing-unit-xl) !important;
+}
+

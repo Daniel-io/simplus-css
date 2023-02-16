@@ -1,0 +1,420 @@
+/* ==========================================================================
+   #BOX
+   ========================================================================== */
+
+
+
+
+
+/**
+* The box object simply boxes off content. Extend with cosmetic styles in the
+* Components layer.
+*
+* 1. So we can apply the `.o-box` class to naturally-inline elements.
+*
+*/
+
+
+
+
+
+.o-box {
+	display: block;   
+	padding: var(--global-spacing-unit);
+}
+
+.o-box > *:last-child {
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+/* Size variants
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.o-box--fl {
+  padding: 0;
+}
+
+.o-box--xs {
+  padding: var(--global-spacing-unit-xs);
+}
+  
+.o-box--sm {
+  padding: var(--global-spacing-unit-sm);
+}
+  
+.o-box--lg {
+  padding: var(--global-spacing-unit-lg);
+}
+
+.o-box--xl {
+  padding: var(--global-spacing-unit-xl);
+}
+
+
+
+
+
+
+
+
+
+/* xs  */
+@media (min-width: 30em) {
+
+
+
+
+	.o-box\@xs {
+		display: block;   
+		padding: var(--global-spacing-unit);
+	}
+	
+	.o-box\@xs > *:last-child {
+		margin-bottom: 0;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Size variants
+		 ========================================================================== */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.o-box--fl\@xs  {
+		padding: 0;
+	}
+	
+	.o-box--xs\@xs {
+		padding: var(--global-spacing-unit-xs);
+	}
+		
+	.o-box--sm\@xs {
+		padding: var(--global-spacing-unit-sm);
+	}
+		
+	.o-box--lg\@xs {
+		padding: var(--global-spacing-unit-lg);
+	}
+	
+	.o-box--xl\@xs {
+		padding: var(--global-spacing-unit-xl);
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* sm  */
+@media (min-width: 45em) {
+
+
+
+
+	.o-box\@sm {
+		display: block;   
+		padding: var(--global-spacing-unit);
+	}
+	
+	.o-box\@sm > *:last-child {
+		margin-bottom: 0;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Size variants
+		 ========================================================================== */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.o-box--fl\@sm {
+		padding: 0;
+	}
+	
+	.o-box--xs\@sm {
+		padding: var(--global-spacing-unit-xs);
+	}
+		
+	.o-box--sm\@sm {
+		padding: var(--global-spacing-unit-sm);
+	}
+		
+	.o-box--lg\@sm {
+		padding: var(--global-spacing-unit-lg);
+	}
+	
+	.o-box--xl\@sm {
+		padding: var(--global-spacing-unit-xl);
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* lg  */
+@media (min-width: 64em) {
+
+
+
+
+	.o-box\@lg {
+		display: block;   
+		padding: var(--global-spacing-unit);
+	}
+	
+	.o-box\@lg > *:last-child {
+		margin-bottom: 0;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Size variants
+		 ========================================================================== */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.o-box--fl\@lg {
+		padding: 0;
+	}
+	
+	.o-box--xs\@lg {
+		padding: var(--global-spacing-unit-xs);
+	}
+		
+	.o-box--sm\@lg {
+		padding: var(--global-spacing-unit-sm);
+	}
+		
+	.o-box--lg\@lg {
+		padding: var(--global-spacing-unit-lg);
+	}
+	
+	.o-box--xl\@lg {
+		padding: var(--global-spacing-unit-xl);
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* xl  */
+@media (min-width: 75em) {
+
+
+
+
+	.o-box\@xl {
+		display: block;   
+		padding: var(--global-spacing-unit);
+	}
+	
+	.o-box\@xl > *:last-child {
+		margin-bottom: 0;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Size variants
+		 ========================================================================== */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.o-box--fl\@xl {
+		padding: 0;
+	}
+	
+	.o-box--xs\@xl {
+		padding: var(--global-spacing-unit-xs);
+	}
+		
+	.o-box--sm\@xl {
+		padding: var(--global-spacing-unit-sm);
+	}
+		
+	.o-box--lg\@xl {
+		padding: var(--global-spacing-unit-lg);
+	}
+	
+	.o-box--xl\@xl {
+		padding: var(--global-spacing-unit-xl);
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* UI variants
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.o-box--light {
+  color: var(--black);
+}
+
+.o-box--dark {
+  color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
