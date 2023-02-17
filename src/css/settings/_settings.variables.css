@@ -216,4 +216,30 @@
 
 
 
+
+
+
+
+
+/* Reassign literal variables to meaningful ones.
+   ========================================================================== */
+
+
+
+
+
+
+
+--list-group-item-padding:  var(--global-spacing-unit-xs);
+--list-group-radius:        var(--global-radius);
+
+
+
+
+
+
+
+
 }
+
+
