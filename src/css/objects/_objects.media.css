@@ -1,0 +1,134 @@
+/* ==========================================================================
+   #MEDIA
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+/**
+* Place any image- and text-like content side-by-side, as per:
+* http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code
+*
+* 1. Overide when using the media object for the purpose of shape-outside property.
+*
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+* o-meida is the wrapping element for .o-media__img and .o-media__body 
+*/ 
+
+
+.o-media {
+  display: block;
+  /* Pair with clearfix */
+}
+
+.o-media__img {
+  float: left;
+  margin-right: var(--global-spacing-unit);
+}
+
+.o-media__img img {
+  display: block;
+}
+
+.o-media__body {
+  overflow: hidden;  /* 1 */
+  display: block;
+}
+
+.o-media__body,
+.o-media__body > *:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* Reversed media objects
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.o-media--reverse > .o-media__img {
+	float: right;
+	margin-right: 0;
+	margin-left:  var(--global-spacing-unit);
+}
+
+
+
+
+
+
+
+
+
+
+/* UI variants
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+/**
+* Allow for shape-outside property - extend shape-outside functionality
+* width component class 
+*/   
+
+
+.o-media--shape .o-media__body {
+  overflow: unset;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

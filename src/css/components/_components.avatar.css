@@ -1,0 +1,52 @@
+/* ==========================================================================
+   #AVATAR
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+.c-avatar,
+.c-avatar--sm,
+.c-avatar--lg {
+    --avatar-size        : calc(var(--global-spacing-unit) * 3);
+    --avatar-size-sm     : calc(var(--global-spacing-unit) / 2);
+    --avatar-size-lg     : calc(var(--global-spacing-unit) * 2);
+}
+
+
+
+
+
+
+
+
+
+
+.c-avatar {
+  display: inline-block;
+  width:  var(--avatar-size);
+  height: var(--avatar-size);
+  border-radius: 100%;
+}
+
+.c-avatar--sm {
+  width:  var(--avatar-size-sm);
+  height: var(--avatar-size-sm);
+}
+
+.c-avatar--lg {
+  width:  var(--avatar-size-lg);
+  height: var(--avatar-size-lg);
+}
+
+.c-avatar--block {
+  display: block;
+}
+
+
+

@@ -1,0 +1,63 @@
+/* ==========================================================================
+   #WRAPPER
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+/**
+* Page-level constraining and wrapping elements.
+*/
+
+
+.o-wrapper {
+  max-width: 80rem;
+  padding-right: var(--global-spacing-unit);    
+  padding-left: var(--global-spacing-unit);     
+  margin-right: auto;
+  margin-left: auto;
+  /* Pair with clearfix  */
+}
+
+
+
+
+
+
+
+
+
+
+/* Size variants
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.o-wrapper--xs {
+  max-width: 37.5rem;
+}
+
+.o-wrapper--sm {
+  max-width: 50rem;
+}
+
+.o-wrapper--lg {
+  max-width: 92.5rem;
+}
+
+.o-wrapper--xl {
+  max-width: 125rem;
+}
