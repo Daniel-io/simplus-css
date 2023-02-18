@@ -1,0 +1,32 @@
+/* ==========================================================================
+   #BACKGROUND
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.u-bg-primary {
+  background-color: var(--color-primary) !important;
+}
+
+.u-bg-secondary {
+  background-color: var(--color-secondary) !important;
+}
+
+.u-bg-tertiary {
+  background-color: var(--color-tertiary) !important;
+}
+
+.u-bg-success {
+  background-color: var(--color-success) !important;
+}
+
+.u-bg-error {
+  background-color: var(--color-error) !important;
+}
