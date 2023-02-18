@@ -115,25 +115,7 @@
 
 
 
-/* Standarise some UI treatments
-   ========================================================================== */
 
-
-
-
-
---global-radius:      3px;
---global-transition:  all 300ms ease-in-out;
-
-
-
-
-
---global-box-shadow-xs:   0 2px 2px 0 rgba(0,0,0,0.14);
---global-box-shadow-sm:   0 4px 5px 0 rgba(0,0,0,0.14);
---global-box-shadow:      0 8px 17px 2px rgba(0,0,0,0.14);
---global-box-shadow-lg:   0 16px 24px 2px rgba(0,0,0,0.14);
---global-box-shadow-xl:   0 24px 38px 3px rgba(0,0,0,0.14);
 
 
 
@@ -161,14 +143,30 @@
 
 
 /* THEME Pallet */
---blue:                  #007bff;
---indigo:                #6610f2;
+--blue:                  #1c7ed6;
+--blue-light:            #339af0;
+--blue-dark:             #1864ab;
+
+--yellow:                #ffe066;
+--yellow-light:          #fff9db;
+--yellow-dark:           #ffd43b;
+
+--indigo:                #4263eb;
+--indigo-light:          #5c7cfa;
+--indigo-dark:           #364fc7;
+
+--red:                   #f03e3e;
+--red-light:             #ff6b6b;
+--red-dark:              #c92a2a;
+
+--green:                 #37b24d;
+--green-light:           #51cf66;
+--green-dark:            #2b8a3e;
+
+--purple:                #6f42c1;
 --purple:                #6f42c1;
 --pink:                  #e83e8c;
---red:                   #dc3545;
 --orange:                #fd7e14;
---yellow:                #ffc107;
---green:                 #28a745;
 --teal:                  #20c997;
 --cyan:                  #17a2b8;
 
@@ -181,7 +179,7 @@
 
 
 
-/* Reassign literal variables to meaningful ones.
+/* Buttons: Reassign literal variables to meaningful ones.
    ========================================================================== */
 
 
@@ -194,26 +192,24 @@
 
 
 --color-primary:                     var(--blue);
---color-primary-highlight:           /* placeholder */;
---color-primary-shadow:              /* placeholder */;
+--color-primary-highlight:           var(--blue-light);
+--color-primary-shadow:              var(--blue-dark);
 
 --color-secondary:                   var(--yellow);
---color-secondary-highlight:         /* placeholder */;
---color-secondary-shadow:            /* placeholder */;
+--color-secondary-highlight:         var(--yellow-light);
+--color-secondary-shadow:            var(--yellow-dark);
 
 --color-tertiary:                    var(--indigo);
---color-tertiary-highlight:          /* placeholder */;
---color-tertiary-shadow:             /* placeholder */;
+--color-tertiary-highlight:          var(--indigo-light);
+--color-tertiary-shadow:             var(--indigo-dark);
 
 --color-success:                     var(--green);
---color-success-highlight:           /* placeholder */;
---color-success-shadow:              /* placeholder */;
+--color-success-highlight:           var(--green-light);
+--color-success-shadow:              var(--green-dark);
 
---color-error:                      var(--red);
---color-error-highlight:             /* placeholder */;
---color-error-shadow:                /* placeholder */;
-
-
+--color-error:                       var(--red);
+--color-error-highlight:             var(--red-light);
+--color-error-shadow:                var(--red-dark);
 
 
 
@@ -221,7 +217,9 @@
 
 
 
-/* Reassign literal variables to meaningful ones.
+
+
+/* List: Reassign literal variables to meaningful ones.
    ========================================================================== */
 
 
@@ -232,6 +230,65 @@
 
 --list-group-item-padding:  var(--global-spacing-unit-xs);
 --list-group-radius:        var(--global-radius);
+
+
+
+
+
+
+
+
+
+
+/* Standarise some UI treatments
+   ========================================================================== */
+
+
+
+
+
+--global-radius:      3px;
+--global-transition:  all 300ms ease-in-out;
+
+
+
+
+
+--global-box-shadow-xs:   0 2px 2px 0 rgba(0,0,0,0.14);
+--global-box-shadow-sm:   0 4px 5px 0 rgba(0,0,0,0.14);
+--global-box-shadow:      0 8px 17px 2px rgba(0,0,0,0.14);
+--global-box-shadow-lg:   0 16px 24px 2px rgba(0,0,0,0.14);
+--global-box-shadow-xl:   0 24px 38px 3px rgba(0,0,0,0.14);
+
+
+
+
+
+
+
+
+
+
+/* Buttons UI
+   ========================================================================== */
+
+
+
+
+
+--button-padding-vertical:       var(--global-spacing-unit-sm);
+--button-padding-horizontal:     var(--global-spacing-unit);
+
+--button-padding-vertical-sm:     var(--global-spacing-unit-xs);
+--button-padding-horizontal-sm:   var(--global-spacing-unit-sm);
+
+--button-padding-vertical-lg:     var(--global-spacing-unit);
+--button-padding-horizontal-lg:   var(--global-spacing-unit-lg);
+
+--button-transition:              var(--global-transition);
+--button-radius:                  var(--global-radius);
+
+--button-ghost-border-width:      .125rem; /* Must be in rem units for calc() function */
 
 
 

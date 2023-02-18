@@ -1,0 +1,375 @@
+/* ==========================================================================
+   #BUTTONS
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+/**
+*
+* 1. Allow the use of style box model properties.
+* 2. Line up different sized buttons.
+* 3. Make buttons inherit font styles (often necessary when styling `input`s as
+*    buttons).
+* 4. Reset/normalize styles.
+* 5. Force all button-styled elements to appear clickable.
+*
+*/
+
+
+.c-btn {
+  /* Position */
+  position: relative;
+
+  /* Box model */
+  display: inline-block;                                            /* 1 */
+  vertical-align: middle;                                           /* 2 */
+  margin: 0;                                                        /* 4 */
+  padding: var(--button-padding-vertical) var(--button-padding-horizontal);
+
+  /* Typography */
+  font: inherit;                                                    /* 3 */
+  text-align: center;                                               /* 4 */
+  text-decoration: none;                                            /* 4 */
+
+  /* Visual */
+  background-color: transparent;
+  cursor: pointer;                                                  /* 5 */
+  border: unset;
+  border-radius: var(--button-radius);
+
+  /* Misc */
+  transition: var(--button-transition);
+}
+
+
+
+
+
+
+
+
+
+/* UI variants
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.c-btn--primary,
+.c-btn--primary:link,
+.c-btn--primary:visited {
+    background-color: var(--color-primary);
+}
+
+.c-btn--primary,
+.c-btn--primary:link,
+.c-btn--primary:visited,
+.c-btn--primary:hover,
+.c-btn--primary:active,
+.c-btn--primary:focus {
+    text-decoration: none; 
+    color: #fff;
+}
+
+.c-btn--primary:hover,
+.c-btn--primary:focus {
+    background-color: var(--color-primary-shadow);
+}
+
+
+
+
+
+
+
+
+
+
+.c-btn--secondary,
+.c-btn--secondary:link,
+.c-btn--secondary:visited {
+    background-color: var(--color-secondary);
+}
+
+.c-btn--secondary,
+.c-btn--secondary:link,
+.c-btn--secondary:visited,
+.c-btn--secondary:hover,
+.c-btn--secondary:active,
+.c-btn--secondary:focus {
+    text-decoration: none; 
+    color: #fff;
+}
+
+.c-btn--secondary:hover,
+.c-btn--secondary:focus {
+    background-color: var(--color-secondary-shadow);
+}
+
+
+
+
+
+
+
+
+
+
+.c-btn--tertiary,
+.c-btn--tertiary:link,
+.c-btn--tertiary:visited {
+    background-color: var(--color-tertiary);
+}
+
+.c-btn--tertiary,
+.c-btn--tertiary:link,
+.c-btn--tertiary:visited,
+.c-btn--tertiary:hover,
+.c-btn--tertiary:active,
+.c-btn--tertiary:focus {
+    text-decoration: none; 
+    color: #fff;
+}
+
+.c-btn--tertiary:hover,
+.c-btn--tertiary:focus {
+    background-color: var(--color-tertiary-shadow);
+}
+
+
+
+
+
+
+
+.c-btn--success,
+.c-btn--success:link,
+.c-btn--success:visited {
+    background-color: var(--color-success);
+}
+
+.c-btn--success,
+.c-btn--success:link,
+.c-btn--success:visited,
+.c-btn--success:hover,
+.c-btn--success:active,
+.c-btn--success:focus {
+    text-decoration: none; 
+    color: #fff;
+}
+
+.c-btn--success:hover,
+.c-btn--success:focus {
+    background-color: var(--color-success-shadow);
+}
+
+
+
+
+
+
+
+
+
+
+.c-btn--error,
+.c-btn--error:link,
+.c-btn--error:visited {
+    background-color: var(--color-error);
+}
+
+.c-btn--error,
+.c-btn--error:link,
+.c-btn--error:visited,
+.c-btn--error:hover,
+.c-btn--error:active,
+.c-btn--error:focus {
+    text-decoration: none; 
+    color: #fff;
+}
+
+.c-btn--error:hover,
+.c-btn--error:focus {
+    background-color: var(--color-error-shadow);
+}
+
+
+
+
+
+
+.c-btn--link,
+.c-btn--link:link,
+.c-btn--link:visited {
+    background-color: unset;
+}
+
+.c-btn--link,
+.c-btn--link:link,
+.c-btn--link:visited,
+.c-btn--link:hover,
+.c-btn--link:active,
+.c-btn--link:focus {
+    color: var(--blue);
+    border: unset;
+    text-decoration: underline;
+}
+
+.c-btn--link:hover,
+.c-btn--link:focus {
+    color: var(--blue-dark);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.c-btn--flat,
+.c-btn--flat:link,
+.c-btn--flat:visited {
+    background-color: unset;
+}
+
+.c-btn--flat,
+.c-btn--flat:link,
+.c-btn--flat:visited,
+.c-btn--flat:hover,
+.c-btn--flat:active,
+.c-btn--flat:focus {
+    color: inherit;
+    border: unset;
+    text-decoration: none;
+}
+
+.c-btn--flat:hover,
+.c-btn--flat:focus {
+    color: currentColor;
+}
+
+
+
+
+
+
+
+
+
+
+/* Size variants
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.c-btn--sm {
+    padding: var(--button-padding-vertical-sm) var(--button-padding-horizontal-sm);
+}
+
+.c-btn--lg {
+    padding: var(--button-padding-vertical-lg) var(--button-padding-horizontal-lg);
+}
+
+
+
+
+
+
+
+
+
+/* Ghost buttons
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+/* Width variant
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.c-btn--block {
+    display: block;
+    width: 100%;
+}
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
