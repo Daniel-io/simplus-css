@@ -135,6 +135,16 @@
 @import "./utilities/_utilities.background.css";
 @import "./utilities/_utilities.clearfix.css";
 @import "./utilities/_utilities.display.css";        /* TODO - Everything in display css */
-@import "./utilities/_utilities.widths.css";
+/* todo flex  */
+@import "./utilities/_utilities.hacks.css";
+@import "./utilities/_utilities.headings.css";
+@import "./utilities/_utilities.healthcheck.css";
+@import "./utilities/_utilities.hide.css";
 @import "./utilities/_utilities.margin.css";
+@import "./utilities/_utilities.margin.css";
+@import "./utilities/_utilities.position.css";
+@import "./utilities/_utilities.shadows.css";
+@import "./utilities/_utilities.text.css";
+
+@import "./utilities/_utilities.widths.css";
 

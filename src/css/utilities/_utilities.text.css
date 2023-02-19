@@ -1,0 +1,313 @@
+/* ==========================================================================
+   #TEXT
+   ========================================================================== */
+
+   
+
+
+
+
+
+
+
+/* Alignment
+    ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.u-text-center {
+    text-align: center !important;
+}
+
+.u-text-left {
+    text-align: left !important;
+}
+
+.u-text-right {
+    text-align: right !important;
+}
+
+.u-text-justify {
+    text-align: justify !important;
+}
+
+
+
+
+
+
+
+
+
+/* xs */
+@media (min-width: 30em) {
+
+
+
+
+    .u-text-center\@xs {
+        text-align: center !important;
+    }
+
+    .u-text-left\@xs {
+        text-align: left !important;
+    }
+
+    .u-text-right\@xs {
+        text-align: right !important;
+    }
+
+    .u-text-justify\@xs {
+        text-align: justify !important;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* sm  */
+@media (min-width: 45em) {
+
+
+
+
+    
+    .u-text-center\@sm {
+        text-align: center !important;
+    }
+
+    .u-text-left\@sm {
+        text-align: left !important;
+    }
+
+    .u-text-right\@sm {
+        text-align: right !important;
+    }
+
+    .u-text-justify\@sm {
+        text-align: justify !important;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* lg  */
+@media (min-width: 64em) {
+
+
+
+
+    .u-text-center\@lg {
+        text-align: center !important;
+    }
+
+    .u-text-left\@lg {
+        text-align: left !important;
+    }
+
+    .u-text-right\@lg {
+        text-align: right !important;
+    }
+
+    .u-text-justify\@lg {
+        text-align: justify !important;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* xl  */
+@media (min-width: 75em) {
+
+
+
+
+
+    .u-text-center\@xl {
+        text-align: center !important;
+    }
+
+    .u-text-left\@xl {
+        text-align: left !important;
+    }
+
+    .u-text-right\@xl {
+        text-align: right !important;
+    }
+
+    .u-text-justify\@xl {
+        text-align: justify !important;
+    }
+
+
+
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+/* Transformation
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.u-text-lowercase {
+    text-transform: lowercase !important;
+}
+
+.u-text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.u-text-capitalize {
+    text-transform: capitalize !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* Weight
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+.u-text-bold {
+    font-weight: bold;
+}
+
+.u-text-light {
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+/* Colors
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.u-text-primary {
+    color: var(--color-primary) !important;
+}
+
+.u-text-secondary {
+    color: var(--color-secondary) !important;
+}
+
+.u-text-tertiary {
+    color: var(--color-tertiary) !important;
+}
+
+.u-text-success {
+    color: var(--color-success) !important;
+}
+
+.u-text-error {
+    color: var(--color-error) !important;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

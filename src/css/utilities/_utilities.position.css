@@ -1,0 +1,35 @@
+/* ==========================================================================
+   #POSITION
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+	 
+.u-fixed-top {
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: var(--zindex-fixed);
+}
+
+.u-fixed-bottom {
+  position: fixed !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: var(--zindex-fixed);
+}
+
+.u-sticky-top {
+	position: sticky !important;
+	top: 0;
+	z-index: var(--zindex-sticky);
+}
+
