@@ -1,5 +1,5 @@
 <!-- TODO: -->
 1. Should there be an option for buttons to be flush (no padding) to apply text alignment ?
-
-2. Add Responsive options to utilities.position.css
+2. Add Responsive options to utilities.flex.css
+2. all of modal.css
 

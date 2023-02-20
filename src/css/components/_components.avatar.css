@@ -34,6 +34,21 @@
   border-radius: 100%;
 }
 
+
+
+
+
+
+
+
+
+/* Size variants
+   ========================================================================== */
+
+
+
+
+
 .c-avatar--sm {
   width:  var(--avatar-size-sm);
   height: var(--avatar-size-sm);

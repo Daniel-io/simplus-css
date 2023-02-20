@@ -211,6 +211,10 @@
 
 
 
+
+
+
+
 .c-btn--link,
 .c-btn--link:link,
 .c-btn--link:visited {
@@ -305,8 +309,127 @@
 
 
 
+.c-btn--ghost {
+    border: var(--button-ghost-border-width) solid currentColor;
+    padding: calc(var(--button-padding-vertical) - var(--button-ghost-border-width)) calc(var(--button-padding-horizontal) - var(--button-ghost-border-width));
+}
+
+.c-btn--ghost,
+.c-btn--ghost:link,
+.c-btn--ghost:visited,
+.c-btn--ghost:hover,
+.c-btn--ghost:active,
+.c-btn--ghost:focus {
+    background: none;
+}
 
 
+
+
+
+
+
+
+
+
+.c-btn--primary.c-btn--ghost {
+    color: var(--color-primary);
+} 
+
+.c-btn--primary.c-btn--ghost:hover,
+.c-btn--primary.c-btn--ghost:focus {
+    color: var(--white);
+    background-color: var(--color-primary-shadow);
+    border: var(--button-ghost-border-width) solid var(--color-primary-shadow);
+}
+
+
+
+
+
+
+
+
+
+
+.c-btn--secondary.c-btn--ghost {
+    color: var(--color-secondary);
+} 
+
+.c-btn--secondary.c-btn--ghost:hover,
+.c-btn--secondary.c-btn--ghost:focus {
+    color: var(--white);
+    background-color: var(--color-secondary-shadow);
+    border: var(--button-ghost-border-width) solid var(--color-secondary-shadow);
+}
+
+
+
+
+
+
+
+
+
+.c-btn--tertiary.c-btn--ghost {
+    color: var(--color-tertiary);
+} 
+
+.c-btn--tertiary.c-btn--ghost:hover,
+.c-btn--tertiary.c-btn--ghost:focus {
+    color: var(--white);
+    background-color: var(--color-tertiary-shadow);
+    border: var(--button-ghost-border-width) solid var(--color-tertiary-shadow);
+}
+
+
+
+
+
+
+
+
+
+.c-btn--success.c-btn--ghost {
+    color: var(--color-success);
+} 
+
+.c-btn--success.c-btn--ghost:hover,
+.c-btn--success.c-btn--ghost:focus {
+    color: var(--white);
+    background-color: var(--color-success-shadow);
+    border: var(--button-ghost-border-width) solid var(--color-success-shadow);
+}
+
+
+
+
+
+
+
+.c-btn--error.c-btn--ghost {
+    color: var(--color-error);
+} 
+
+.c-btn--error.c-btn--ghost:hover,
+.c-btn--error.c-btn--ghost:focus {
+    color: var(--white);
+    background-color: var(--color-error-shadow);
+    border: var(--button-ghost-border-width) solid var(--color-error-shadow);
+}
+
+
+
+
+
+
+.c-btn--ghost.c-btn--sm {
+    padding: calc(var(--button-padding-vertical-sm) - var(--button-ghost-border-width)) calc(var(--button-padding-horizontal-sm) - var(--button-ghost-border-width));
+}
+
+.c-btn--ghost.c-btn--lg {
+    padding: calc(var(--button-padding-vertical-lg) - var(--button-ghost-border-width)) calc(var(--button-padding-horizontal-lg) - var(--button-ghost-border-width));
+}
 
 
 

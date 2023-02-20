@@ -25,7 +25,7 @@
 *                      without risk of bloating our compiled stylesheet. This
 *                      also allows us to easily recycle all of our
 *                      project-level tooling into other Sass file/projects.
-*                      Please see `tools/_all.scss` for a full table of
+*                      Please see `tools/_all.css` for a full table of
 *                      contents.
 *
 * GENERIC
@@ -124,9 +124,9 @@
 
 
 @import "./components/_components.avatar.css";
-@import "./components/_components.buttons.css";       /* TODO - Ghost buttons */
+@import "./components/_components.buttons.css";    
 @import "./components/_components.list-group.css";
-@import "./components/_components.modal.css";         /* TODO - Everything in model css */
+@import "./components/_components.modal.css";         /* TODO */
 
 
 
@@ -134,8 +134,8 @@
 
 @import "./utilities/_utilities.background.css";
 @import "./utilities/_utilities.clearfix.css";
-@import "./utilities/_utilities.display.css";        /* TODO - Everything in display css */
-/* todo flex  */
+@import "./utilities/_utilities.display.css";    
+@import "./utilities/_utilities.flex.css";         /* Missing media query options */
 @import "./utilities/_utilities.hacks.css";
 @import "./utilities/_utilities.headings.css";
 @import "./utilities/_utilities.healthcheck.css";
@@ -145,6 +145,5 @@
 @import "./utilities/_utilities.position.css";
 @import "./utilities/_utilities.shadows.css";
 @import "./utilities/_utilities.text.css";
-
 @import "./utilities/_utilities.widths.css";
 

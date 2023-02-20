@@ -12,7 +12,8 @@
 
 
 /**
-* Page-level constraining and wrapping elements.
+* Page-level constraining and wrapping elements. 
+* Pair with clearfix 
 */
 
 
@@ -22,7 +23,6 @@
   padding-left: var(--global-spacing-unit);     
   margin-right: auto;
   margin-left: auto;
-  /* Pair with clearfix  */
 }
 
 
