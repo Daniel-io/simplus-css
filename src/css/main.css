@@ -135,7 +135,7 @@
 @import "./utilities/_utilities.background.css";
 @import "./utilities/_utilities.clearfix.css";
 @import "./utilities/_utilities.display.css";    
-@import "./utilities/_utilities.flex.css";         /* Missing media query options */
+@import "./utilities/_utilities.flex.css";        
 @import "./utilities/_utilities.hacks.css";
 @import "./utilities/_utilities.headings.css";
 @import "./utilities/_utilities.healthcheck.css";

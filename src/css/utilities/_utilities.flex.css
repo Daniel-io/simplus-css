@@ -180,6 +180,807 @@
 .u-order-11   { order: 11; }
 .u-order-12   { order: 12; }
 
+
+
+
+
+
+
+
+
+
+/* xs - 480px */
+@media (min-width: 30em) {
+
+
+
+
+
+  
+
+
+  /* Flex direction
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+  .u-row\@xs             { flex-direction: row !important; }
+  .u-column\@xs          { flex-direction: column !important; }
+  .u-row-reverse\@xs     { flex-direction: row-reverse !important; }
+  .u-column-reverse\@xs  { flex-direction: column-reverse !important; }
+
+
+
+
+
+
+
+
+
+/* Justify content
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+  .u-start\@xs    { justify-content: flex-start !important; }
+  .u-end\@xs      { justify-content: flex-end !important; }
+  .u-center\@xs   { justify-content: center !important; }
+  .u-between\@xs  { justify-content: space-between !important; }
+  .u-around\@xs   { justify-content: space-around !important; }
+
+
+
+
+
+
+
+
+
+
+
+/* Align items
+ ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+  .u-top\@xs               { align-items: flex-start !important; }
+  .u-bottom\@xs            { align-items: flex-end !important; }
+  .u-middle\@xs            { align-items: center !important; }
+  .u-baseline\@xs          { align-items: baseline !important; }
+  .u-stretch\@xs           { align-items: stretch !important; }
+
+
+
+
+
+
+
+
+
+
+/* Align content
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.u-content-start\@xs    { align-content: flex-start !important; }
+.u-content-end\@xs      { align-content: flex-end !important; }
+.u-content-center\@xs   { align-content: center !important; }
+.u-content-between\@xs  { align-content: space-between !important; }
+.u-content-around\@xs   { align-content: space-around !important; }
+.u-content-stretch\@xs  { align-content: stretch !important; }
+
+
+
+
+
+
+
+
+
+/* Align self
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+  .u-self-auto\@xs      { align-self: auto !important; }
+  .u-self-start\@xs     { align-self: flex-start !important; }
+  .u-self-end\@xs       { align-self: flex-end !important; }
+  .u-self-center\@xs    { align-self: center !important; }
+  .u-self-baseline\@xs  { align-self: baseline !important; }
+  .u-self-stretch\@xs   { align-self: stretch !important; }
+
+
+
+
+
+
+
+
+
+
+
+/* Order
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+  .u-first\@xs       { order: -1 }
+  .u-last\@xs        { order:  1 } 
+
+
+
+
+  .u-order-0\@xs     { order: 0; }
+  .u-order-1\@xs     { order: 1; }
+  .u-order-2\@xs     { order: 2; }
+  .u-order-3\@xs     { order: 3; }
+  .u-order-4\@xs     { order: 4; }
+  .u-order-5\@xs     { order: 5; }
+  .u-order-6\@xs     { order: 6; }
+  .u-order-7\@xs     { order: 7; }
+  .u-order-8\@xs     { order: 8; }
+  .u-order-9\@xs     { order: 9; }
+  .u-order-10\@xs    { order: 10; }
+  .u-order-11\@xs    { order: 11; }
+  .u-order-12\@xs    { order: 12; }
+
+
+
+
+
+
+
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* sm - 720px */
+@media (min-width: 45em) {
+
+
+
+
+
+  
+
+
+  /* Flex direction
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+  .u-row\@sm             { flex-direction: row !important; }
+  .u-column\@sm          { flex-direction: column !important; }
+  .u-row-reverse\@sm     { flex-direction: row-reverse !important; }
+  .u-column-reverse\@sm  { flex-direction: column-reverse !important; }
+
+
+
+
+
+
+
+
+
+/* Justify content
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+  .u-start\@sm    { justify-content: flex-start !important; }
+  .u-end\@sm      { justify-content: flex-end !important; }
+  .u-center\@sm   { justify-content: center !important; }
+  .u-between\@sm  { justify-content: space-between !important; }
+  .u-around\@sm   { justify-content: space-around !important; }
+
+
+
+
+
+
+
+
+
+
+
+/* Align items
+ ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+  .u-top\@sm               { align-items: flex-start !important; }
+  .u-bottom\@sm            { align-items: flex-end !important; }
+  .u-middle\@sm            { align-items: center !important; }
+  .u-baseline\@sm          { align-items: baseline !important; }
+  .u-stretch\@sm           { align-items: stretch !important; }
+
+
+
+
+
+
+
+
+
+
+/* Align content
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.u-content-start\@sm    { align-content: flex-start !important; }
+.u-content-end\@sm      { align-content: flex-end !important; }
+.u-content-center\@sm   { align-content: center !important; }
+.u-content-between\@sm  { align-content: space-between !important; }
+.u-content-around\@sm   { align-content: space-around !important; }
+.u-content-stretch\@sm  { align-content: stretch !important; }
+
+
+
+
+
+
+
+
+
+/* Align self
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+  .u-self-auto\@sm      { align-self: auto !important; }
+  .u-self-start\@sm     { align-self: flex-start !important; }
+  .u-self-end\@sm       { align-self: flex-end !important; }
+  .u-self-center\@sm    { align-self: center !important; }
+  .u-self-baseline\@sm  { align-self: baseline !important; }
+  .u-self-stretch\@sm   { align-self: stretch !important; }
+
+
+
+
+
+
+
+
+
+
+
+/* Order
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+  .u-first\@sm       { order: -1 }
+  .u-last\@sm        { order:  1 } 
+
+
+
+
+  .u-order-0\@sm     { order: 0; }
+  .u-order-1\@sm     { order: 1; }
+  .u-order-2\@sm     { order: 2; }
+  .u-order-3\@sm     { order: 3; }
+  .u-order-4\@sm     { order: 4; }
+  .u-order-5\@sm     { order: 5; }
+  .u-order-6\@sm     { order: 6; }
+  .u-order-7\@sm     { order: 7; }
+  .u-order-8\@sm     { order: 8; }
+  .u-order-9\@sm     { order: 9; }
+  .u-order-10\@sm    { order: 10; }
+  .u-order-11\@sm    { order: 11; }
+  .u-order-12\@sm    { order: 12; }
+
+
+
+
+
+
+
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* lg - 1024px */
+@media (min-width: 64em) {
+
+
+
+
+
+  
+
+
+  /* Flex direction
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+  .u-row\@lg             { flex-direction: row !important; }
+  .u-column\@lg          { flex-direction: column !important; }
+  .u-row-reverse\@lg     { flex-direction: row-reverse !important; }
+  .u-column-reverse\@lg  { flex-direction: column-reverse !important; }
+
+
+
+
+
+
+
+
+
+/* Justify content
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+  .u-start\@lg    { justify-content: flex-start !important; }
+  .u-end\@lg      { justify-content: flex-end !important; }
+  .u-center\@lg   { justify-content: center !important; }
+  .u-between\@lg  { justify-content: space-between !important; }
+  .u-around\@lg   { justify-content: space-around !important; }
+
+
+
+
+
+
+
+
+
+
+
+/* Align items
+ ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+  .u-top\@lg               { align-items: flex-start !important; }
+  .u-bottom\@lg            { align-items: flex-end !important; }
+  .u-middle\@lg            { align-items: center !important; }
+  .u-baseline\@lg          { align-items: baseline !important; }
+  .u-stretch\@lg           { align-items: stretch !important; }
+
+
+
+
+
+
+
+
+
+
+/* Align content
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.u-content-start\@lg    { align-content: flex-start !important; }
+.u-content-end\@lg      { align-content: flex-end !important; }
+.u-content-center\@lg   { align-content: center !important; }
+.u-content-between\@lg  { align-content: space-between !important; }
+.u-content-around\@lg   { align-content: space-around !important; }
+.u-content-stretch\@lg  { align-content: stretch !important; }
+
+
+
+
+
+
+
+
+
+/* Align self
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+  .u-self-auto\@lg      { align-self: auto !important; }
+  .u-self-start\@lg     { align-self: flex-start !important; }
+  .u-self-end\@lg       { align-self: flex-end !important; }
+  .u-self-center\@lg    { align-self: center !important; }
+  .u-self-baseline\@lg  { align-self: baseline !important; }
+  .u-self-stretch\@lg   { align-self: stretch !important; }
+
+
+
+
+
+
+
+
+
+
+
+/* Order
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+  .u-first\@lg       { order: -1 }
+  .u-last\@lg        { order:  1 } 
+
+
+
+
+  .u-order-0\@lg     { order: 0; }
+  .u-order-1\@lg     { order: 1; }
+  .u-order-2\@lg     { order: 2; }
+  .u-order-3\@lg     { order: 3; }
+  .u-order-4\@lg     { order: 4; }
+  .u-order-5\@lg     { order: 5; }
+  .u-order-6\@lg     { order: 6; }
+  .u-order-7\@lg     { order: 7; }
+  .u-order-8\@lg     { order: 8; }
+  .u-order-9\@lg     { order: 9; }
+  .u-order-10\@lg    { order: 10; }
+  .u-order-11\@lg    { order: 11; }
+  .u-order-12\@lg    { order: 12; }
+
+
+
+
+
+
+
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* xl - 1200px */
+@media (min-width: 75em) {
+
+
+
+
+
+  
+
+
+  /* Flex direction
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+  .u-row\@xl             { flex-direction: row !important; }
+  .u-column\@xl          { flex-direction: column !important; }
+  .u-row-reverse\@xl     { flex-direction: row-reverse !important; }
+  .u-column-reverse\@xl  { flex-direction: column-reverse !important; }
+
+
+
+
+
+
+
+
+
+/* Justify content
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+  .u-start\@xl    { justify-content: flex-start !important; }
+  .u-end\@xl      { justify-content: flex-end !important; }
+  .u-center\@xl   { justify-content: center !important; }
+  .u-between\@xl  { justify-content: space-between !important; }
+  .u-around\@xl   { justify-content: space-around !important; }
+
+
+
+
+
+
+
+
+
+
+
+/* Align items
+ ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+  .u-top\@xl               { align-items: flex-start !important; }
+  .u-bottom\@xl            { align-items: flex-end !important; }
+  .u-middle\@xl            { align-items: center !important; }
+  .u-baseline\@xl          { align-items: baseline !important; }
+  .u-stretch\@xl           { align-items: stretch !important; }
+
+
+
+
+
+
+
+
+
+
+/* Align content
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+.u-content-start\@xl    { align-content: flex-start !important; }
+.u-content-end\@xl      { align-content: flex-end !important; }
+.u-content-center\@xl   { align-content: center !important; }
+.u-content-between\@xl  { align-content: space-between !important; }
+.u-content-around\@xl   { align-content: space-around !important; }
+.u-content-stretch\@xl  { align-content: stretch !important; }
+
+
+
+
+
+
+
+
+
+/* Align self
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+  .u-self-auto\@xl      { align-self: auto !important; }
+  .u-self-start\@xl     { align-self: flex-start !important; }
+  .u-self-end\@xl       { align-self: flex-end !important; }
+  .u-self-center\@xl    { align-self: center !important; }
+  .u-self-baseline\@xl  { align-self: baseline !important; }
+  .u-self-stretch\@xl   { align-self: stretch !important; }
+
+
+
+
+
+
+
+
+
+
+
+/* Order
+  ========================================================================== */
+
+
+
+
+
+
+
+
+
+  .u-first\@xl       { order: -1 }
+  .u-last\@xl        { order:  1 } 
+
+
+
+
+  .u-order-0\@xl     { order: 0; }
+  .u-order-1\@xl     { order: 1; }
+  .u-order-2\@xl     { order: 2; }
+  .u-order-3\@xl     { order: 3; }
+  .u-order-4\@xl     { order: 4; }
+  .u-order-5\@xl     { order: 5; }
+  .u-order-6\@xl     { order: 6; }
+  .u-order-7\@xl     { order: 7; }
+  .u-order-8\@xl     { order: 8; }
+  .u-order-9\@xl     { order: 9; }
+  .u-order-10\@xl    { order: 10; }
+  .u-order-11\@xl    { order: 11; }
+  .u-order-12\@xl    { order: 12; }
+
+
+
+
+
+
+
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
   
   
   
