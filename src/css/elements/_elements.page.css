@@ -36,6 +36,7 @@ html {
 	background-color: var(--white);
 	color: var(--black);
 
+	scroll-behavior: smooth;
 }
 
 
@@ -45,4 +46,13 @@ html {
 ::selection {
 	color: var(--white);
 	background-color: var(--color-primary);
+}
+
+
+
+
+
+*:focus {
+	outline: none;
+	box-shadow: 0 0 0 0.8rem var(--color-primary);
 }

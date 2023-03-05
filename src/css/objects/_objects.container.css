@@ -1,5 +1,5 @@
 /* ==========================================================================
-   #WRAPPER
+   #CONTAINER
    ========================================================================== */
 
 
@@ -17,7 +17,7 @@
 */
 
 
-.o-wrapper {
+.o-container {
   max-width: 80rem;
   padding-right: var(--global-spacing-unit);    
   padding-left: var(--global-spacing-unit);     
@@ -46,18 +46,18 @@
 
 
 
-.o-wrapper--xs {
+.o-container--xs {
   max-width: 37.5rem;
 }
 
-.o-wrapper--sm {
+.o-container--sm {
   max-width: 50rem;
 }
 
-.o-wrapper--lg {
+.o-container--lg {
   max-width: 92.5rem;
 }
 
-.o-wrapper--xl {
+.o-container--xl {
   max-width: 125rem;
 }

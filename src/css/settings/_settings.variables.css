@@ -6,6 +6,10 @@
 
 
 
+
+
+
+   
 /**
 * This file sets up the most important setup variables. They
 * underpin a lot of how the framework functions and should be modified and
@@ -17,7 +21,10 @@
 
 
 
-   
+
+
+
+
 /**
 * CONTENTS
 *
@@ -31,8 +38,6 @@
 * #STANDARD UI : border radius, box shadow, transition                     
 * #BUTTON UI
 * #Z-INDEX
-*
-*
 *
 *
 */  

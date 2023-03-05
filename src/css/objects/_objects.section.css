@@ -1,5 +1,5 @@
 /* ==========================================================================
-   #BAND
+   #SECTION
    ========================================================================== */
 
 
@@ -11,7 +11,7 @@
 
 
 
-.o-band {
+.o-section {
   display: block;   
   padding-top: var(--global-spacing-unit);
   padding-bottom: var(--global-spacing-unit);
@@ -38,27 +38,27 @@
 
 
 /* flush  */
-.o-band--fl {
+.o-section--fl {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.o-band--xs {
+.o-section--xs {
   padding-top: var(--global-spacing-unit-xs);
   padding-bottom: var(--global-spacing-unit-xs);
 }
   
-.o-band--sm {
+.o-section--sm {
   padding-top: var(--global-spacing-unit-sm);
   padding-bottom: var(--global-spacing-unit-sm);
 }
   
-.o-band--lg {
+.o-section--lg {
   padding-top: var(--global-spacing-unit-lg);
   padding-bottom: var(--global-spacing-unit-lg);
 }
 
-.o-band--xl {
+.o-section--xl {
   padding-top: var(--global-spacing-unit-xl);
   padding-bottom: var(--global-spacing-unit-xl);
 }
@@ -77,7 +77,7 @@
 
 
 
-	.o-band\@xs {
+	.o-section\@xs {
 		display: block;   
 		padding-top: var(--global-spacing-unit);
 		padding-bottom: var(--global-spacing-unit);
@@ -104,27 +104,27 @@
 	
 	
 	
-	.o-band--fl\@xs  {
+	.o-section--fl\@xs  {
 		padding-top: 0;
 		padding-bottom: 0;
 	}
 	
-	.o-band--xs\@xs {
+	.o-section--xs\@xs {
 		padding-top: var(--global-spacing-unit-xs);
 		padding-bottom: var(--global-spacing-unit-xs);
 	}
 		
-	.o-band--sm\@xs {
+	.o-section--sm\@xs {
 		padding-top: var(--global-spacing-unit-sm);
 		padding-bottom: var(--global-spacing-unit-sm);
 	}
 		
-	.o-band--lg\@xs {
+	.o-section--lg\@xs {
 		padding-top: var(--global-spacing-unit-lg);
 		padding-bottom: var(--global-spacing-unit-lg);
 	}
 	
-	.o-band--xl\@xs {
+	.o-section--xl\@xs {
 		padding-top: var(--global-spacing-unit-xl);
 		padding-bottom: var(--global-spacing-unit-xl);
 	}
@@ -150,7 +150,7 @@
 
 
 
-	.o-band\@sm {
+	.o-section\@sm {
 		display: block;   
 		padding-top: var(--global-spacing-unit);
 		padding-bottom: var(--global-spacing-unit);
@@ -177,27 +177,27 @@
 	
 	
 	
-	.o-band--fl\@sm {
+	.o-section--fl\@sm {
 		padding-top: 0;
 		padding-bottom: 0;
 	}
 	
-	.o-band--xs\@sm {
+	.o-section--xs\@sm {
 		padding-top: var(--global-spacing-unit-xs);
 		padding-bottom: var(--global-spacing-unit-xs);
 	}
 		
-	.o-band--sm\@sm {
+	.o-section--sm\@sm {
 		padding-top: var(--global-spacing-unit-sm);
 		padding-bottom: var(--global-spacing-unit-sm);
 	}
 		
-	.o-band--lg\@sm {
+	.o-section--lg\@sm {
 		padding-top: var(--global-spacing-unit-lg);
 		padding-bottom: var(--global-spacing-unit-lg);
 	}
 	
-	.o-band--xl\@sm {
+	.o-section--xl\@sm {
 		padding-top: var(--global-spacing-unit-xl);
 		padding-bottom: var(--global-spacing-unit-xl);
 	}
@@ -224,7 +224,7 @@
 
 
 	
-	.o-band\@lg {
+	.o-section\@lg {
 		display: block;   
 		padding-top: var(--global-spacing-unit);
 		padding-bottom: var(--global-spacing-unit);
@@ -251,27 +251,27 @@
 	
 	
 	
-	.o-band--fl\@lg {
+	.o-section--fl\@lg {
 		padding-top: 0;
 		padding-bottom: 0;
 	}
 	
-	.o-band--xs\@lg {
+	.o-section--xs\@lg {
 		padding-top: var(--global-spacing-unit-xs);
 		padding-bottom: var(--global-spacing-unit-xs);
 	}
 		
-	.o-band--sm\@lg {
+	.o-section--sm\@lg {
 		padding-top: var(--global-spacing-unit-sm);
 		padding-bottom: var(--global-spacing-unit-sm);
 	}
 		
-	.o-band--lg\@lg {
+	.o-section--lg\@lg {
 		padding-top: var(--global-spacing-unit-lg);
 		padding-bottom: var(--global-spacing-unit-lg);
 	}
 	
-	.o-band--xl\@lg {
+	.o-section--xl\@lg {
 		padding-top: var(--global-spacing-unit-xl);
 		padding-bottom: var(--global-spacing-unit-xl);
 	}
@@ -296,7 +296,7 @@
 
 
 
-	.o-band\@xl {
+	.o-section\@xl {
 		display: block;   
 		padding-top: var(--global-spacing-unit);
 		padding-bottom: var(--global-spacing-unit);
@@ -323,27 +323,27 @@
 	
 	
 	
-	.o-band--fl\@xl {
+	.o-section--fl\@xl {
 		padding-top: 0;
 		padding-bottom: 0;
 	}
 	
-	.o-band--xs\@xl {
+	.o-section--xs\@xl {
 		padding-top: var(--global-spacing-unit-xs);
 		padding-bottom: var(--global-spacing-unit-xs);
 	}
 		
-	.o-band--sm\@xl {
+	.o-section--sm\@xl {
 		padding-top: var(--global-spacing-unit-sm);
 		padding-bottom: var(--global-spacing-unit-sm);
 	}
 		
-	.o-band--lg\@xl {
+	.o-section--lg\@xl {
 		padding-top: var(--global-spacing-unit-lg);
 		padding-bottom: var(--global-spacing-unit-lg);
 	}
 	
-	.o-band--xl\@xl {
+	.o-section--xl\@xl {
 		padding-top: var(--global-spacing-unit-xl);
 		padding-bottom: var(--global-spacing-unit-xl);
 	}
@@ -405,11 +405,11 @@
 
 
 
-.o-band--light {
+.o-section--light {
   color: var(--black);
 }
 
-.o-band--dark {
+.o-section--dark {
   color: var(--white);
 }
 

@@ -43,13 +43,13 @@
 * Tables...............Set table width.
 *
 * OBJECTS
-* Band.................Padding top/bottom spacer
 * Box..................boxes off content using padding.
+* Container............Wrappers and page constraints.
 * Layout...............Generic layout module.
 * List-bare............Lists with no bullets or indents.
 * List-inline..........Simple abstraction for setting lists out in a line.
 * Media................Place any image- and text-like content side-by-side.
-* Wrappers.............Wrappers and page constraints.
+* Section..............Padding top/bottom spacer
 *
 * COMPONENTS
 * Avatar...............Avatar image.
@@ -111,13 +111,13 @@
 
 
 
-@import "./objects/_objects.band.css";
 @import "./objects/_objects.box.css";
+@import "./objects/_objects.container.css";
 @import "./objects/_objects.layout.css";
 @import "./objects/_objects.list-bare.css";
 @import "./objects/_objects.list-inline.css";
 @import "./objects/_objects.media.css";
-@import "./objects/_objects.wrappers.css";
+@import "./objects/_objects.section.css";
 
 
 
