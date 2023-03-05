@@ -14,7 +14,36 @@
 
 
 
+
+
+
+   
+/**
+* CONTENTS
+*
+* #TYPEFACE 
+* #GLOBAL FONT SIZE
+* #HEADINGS FONT SIZE
+* #GLOBAL SPACING UNIT
+* #COLOR PALETT
+* #COLOR PALETT : SEMANTIC
+* #LIST
+* #STANDARD UI : border radius, box shadow, transition                     
+* #BUTTON UI
+* #Z-INDEX
+*
+*
+*
+*
+*/  
+
+
     
+
+
+
+
+
 
 
 :root {
@@ -23,7 +52,7 @@
 
 
 
-/*  Typeface
+/* #TYPEFACE
 ========================================================================== */
 
 
@@ -36,22 +65,8 @@
 
 
 
-/*  Base typographical styles and baseline grid.
+/* #GLOBAL FONT SIZE
 ========================================================================== */
-
-
-
-
-
-/**
-* MQ Breakpoints
-*
-* xs..........30em - 480px
-* sm..........45em - 720px
-* lg..........64em - 1024px
-* xl..........75em - 1200px
-*
-*/
 
 
 
@@ -69,9 +84,8 @@
 
 
 
-/**
-* Simple default styles for headings 1 through 6.
-*/
+/* #HEADINGS FONT SIZE
+========================================================================== */
 
 
 
@@ -88,7 +102,7 @@
 
 
 
-/* Global spacing units
+/* #GLOBAL SPACING UNIT
 ========================================================================== */
 
 
@@ -122,7 +136,7 @@
 
 
 
-/* Reassign literal variables to meaningful ones.
+/* #COLOR PALETT
    ========================================================================== */
 
 
@@ -179,7 +193,7 @@
 
 
 
-/* Buttons: Reassign literal variables to meaningful ones.
+/* #COLOR PALETT : SEMANTIC
    ========================================================================== */
 
 
@@ -219,7 +233,7 @@
 
 
 
-/* List: Reassign literal variables to meaningful ones.
+/* #LIST
    ========================================================================== */
 
 
@@ -240,7 +254,7 @@
 
 
 
-/* Standarise some UI treatments
+/* #STANDARD UI : border radius, box shadow, transition
    ========================================================================== */
 
 
@@ -269,7 +283,7 @@
 
 
 
-/* Buttons UI
+/* #BUTTON UI
    ========================================================================== */
 
 
@@ -298,7 +312,7 @@
 
 
 
-/* Buttons UI
+/* #Z-INDEX
    ========================================================================== */
 
 
