@@ -6,7 +6,7 @@
 
 
 
-{# BREAKPOINTS #}
+{# FUTURE BREAKPOINTS #}
 {% set phone_large = '22.5em' %} {# 360px #}
 {% set tablet = '37.5em' %} {# 600px #}
 {% set tablet_large = '56.25em' %} {# 900px #}
