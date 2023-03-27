@@ -7,3 +7,4 @@
 6. get rid of prefixers c- o- etc
 7. review amount of media queries
 8. change layout to use gap instead of margin
+9. add prevent default behavior if modal button is an a
